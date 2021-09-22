@@ -119,11 +119,13 @@
       text-align: center;
     }
 
-    .big-banner img {
+    .run-buddy {
       width: 900px;
       height: 500px;
       opacity: .70;
       border: 10px solid black;
+      display: flex;
+      
       
     
      }
@@ -131,3 +133,19 @@
     .run-buddy:hover {
       opacity: 1;
     }
+
+    .image-tag {
+      position: relative;
+      background-color: black;
+      color: white;
+      font-size: 30px;
+      padding: 20px;
+      float: left;
+      left: 10px;
+      bottom: 150px;
+      
+      
+
+    }
+
+  
