@@ -100,7 +100,7 @@
     }
 
     /*Work*/
-    .work {
+    .main-project {
       padding: 170px 0 0 0;
       display: flex;
       justify-content: center;
@@ -110,7 +110,7 @@
       
     }
 
-    .work h2 {
+    .main-project h2 {
       font-size: 40px;
       color:black;
       padding-bottom: 40px
@@ -118,7 +118,7 @@
       
     }
 
-    .big-banner {
+    .banner {
       text-align: center;
       align-content: center;
       display: flex;
@@ -155,17 +155,57 @@
       right: 337px;
       bottom: 150px;
       margin: auto;
-      
-      
-    
     }
 
-      .small-panel {
-        width: 400px;
-        height: 200px;
-        
-        
-        
-      }
+    .other-projects {
+      display: flex;
+      justify-content: center;
+      flex-direction:row;
+      gap: 20px;
+      
+      
+    }
 
+    .small-panel {
+      width:440px;
+      height: 270px;
+      opacity: .70;
+      border: 15px solid black;
+      border-radius: 10px;
+      display: flex;
+      
+
+    }
+
+    .small-panel:hover {
+      opacity: 1;
+    }
+
+    .calculator-tag {
+      background-color: black;
+      color: white;
+      font-size: 18px;
+      padding: 10px;
+      position: relative;
+      bottom: 100px;
+      right: 143px;
+      margin: auto;
+      
+     }
+
+     .coming-soon-tag {
+      background-color: black;
+      color: white;
+      font-size: 18px;
+      padding: 10px;
+      position: relative;
+      bottom: 100px;
+      right: 126px;
+      margin: auto;
+     }
+
+     
+
+    
+   
   
