@@ -104,6 +104,9 @@
       padding: 170px 0 0 0;
       display: flex;
       justify-content: center;
+      flex-direction: column;
+      
+      
       
     }
 
@@ -117,9 +120,15 @@
 
     .big-banner {
       text-align: center;
+      align-content: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      
     }
 
-    .run-buddy {
+    .large-panel {
       width: 900px;
       height: 500px;
       opacity: .70;
@@ -128,25 +137,35 @@
       display: flex;
       
       
+      
+     
+    }
     
-     }
-    
-    .run-buddy:hover {
+    .large-panel:hover {
       opacity: 1;
     }
 
-    .image-tag {
-      position: relative;
+    .image-tag  {
+     
       background-color: black;
       color: white;
       font-size: 25px;
-      padding: 17px;
-      float: left;
-      left: 15px;
+      padding: 20px;
+      position: relative;
+      right: 337px;
       bottom: 150px;
+      margin: auto;
       
       
-
+    
     }
+
+      .small-panel {
+        width: 400px;
+        height: 200px;
+        
+        
+        
+      }
 
   
