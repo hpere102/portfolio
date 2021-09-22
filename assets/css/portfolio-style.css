@@ -123,7 +123,8 @@
       width: 900px;
       height: 500px;
       opacity: .70;
-      border: 10px solid black;
+      border: 15px solid black;
+      border-radius: 10px;
       display: flex;
       
       
@@ -138,10 +139,10 @@
       position: relative;
       background-color: black;
       color: white;
-      font-size: 30px;
-      padding: 20px;
+      font-size: 25px;
+      padding: 17px;
       float: left;
-      left: 10px;
+      left: 15px;
       bottom: 150px;
       
       
