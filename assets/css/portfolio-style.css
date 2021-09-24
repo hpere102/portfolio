@@ -55,7 +55,7 @@
     }
 
     .pe {
-        color: rgb(233, 81, 10);
+        color: rgb(214, 79, 79);
         font-style: italic;
     }
 
@@ -67,7 +67,6 @@
       flex-direction: row;
       gap: 35px;
       align-items: center;
-      
       border-radius: 5px;
       border: 3px solid black;
     }
@@ -111,21 +110,25 @@
 
     /*Work*/
     .main-project {
-      padding: 130px 0 0 0;
+      margin: 130px 0 0 0;
       display: flex;
       justify-content: center;
       flex-direction: column;
-      
-      
-      
-    }
+       }
 
-    .main-project h2 {
+    .banner h2 {
+      margin:auto;
       font-size: 45px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       color:black;
       font-weight: bolder;
-      padding-bottom: 40px
+      margin-bottom:60px;
+      border-bottom: 9px ridge rgb(214, 79, 79);
+      padding: 5px;
+      
+      
+     
+      
       
     }
 
@@ -237,15 +240,17 @@
        flex-direction: column;
        justify-content: space-evenly;
        text-align: center;
-       background-color: teal;
+
        }
 
        .contact h2 {
+         margin: auto;
         font-size: 45px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color:black;
         font-weight: bolder;
-        margin-bottom: ;
+        border-bottom: 9px ridge rgb(214, 79, 79);
+        padding-bottom: 5px;
        }
 
       .contact input {
@@ -258,7 +263,8 @@
         height: 80px;
         position: relative;
         left: 42px;
-        padding-inline-top; 2px
+        padding-inline-top: 2px;
+        resize: none;
         }
 
       .contact input, textarea {
@@ -291,7 +297,7 @@
       .message {
         padding:6px;
         position: relative;
-        bottom: 41px;
+        bottom: 64px;
         left: 96px;
       }
       
@@ -314,5 +320,19 @@
         height: 50px;
         margin-top: 50px;
       }
+
+    .contact button {
+      width: 100px;
+      color: black;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 19px;
+      position: relative;
+      left: 204px;
+     }
+
+     .contact button:hover {
+       color: white;
+       background-color: black;
+     }
 
 
