@@ -230,12 +230,13 @@
        }
 
        .contact {
-       width: 500px;
-       height: 300px;
+       width: 430px;
+       height: 400px;
        margin: auto;
        display: flex;
-       background-color: teal;
-       
+       flex-direction: column;
+       justify-content: space-evenly;
+       text-align: center;
        }
 
        .contact h2 {
@@ -243,8 +244,48 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color:black;
         font-weight: bolder;
-
-        
-        
+        margin-bottom: 30px;
        }
+
+      .contact input {
+        width: 250px;
+        height: 35px;
+       }
+
+      .contact textarea {
+        width: 250px;
+        height: 80px;
+        position: relative;
+        left: 12px;
+        }
+
+      .contact input, textarea {
+      
+       align-self: center;
+       box-sizing: border-box;
+       font-size: 17px;
+       margin: 10px;
+       
+      }
+
+      .your-name , .message  {
+       color: white;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size: 20px;
+       background-color: black;
+       margin-right: 40px;
+      
+      }
+
+      .your-name {
+        padding: 6px;
+      }
+
+      .message {
+        padding:6px;
+        position: relative;
+        bottom: 41px;
+      }
+      
+
 
