@@ -90,6 +90,7 @@
     .bio p {
       margin-right: 11%;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 16px;
     }
 
 
@@ -110,7 +111,7 @@
 
     /*Work*/
     .main-project {
-      margin: 130px 0 0 0;
+      margin: auto;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -125,12 +126,7 @@
       margin-bottom:60px;
       border-bottom: 9px ridge rgb(214, 79, 79);
       padding: 5px;
-      
-      
-     
-      
-      
-    }
+      }
 
     .banner {
       text-align: center;
@@ -139,8 +135,7 @@
       justify-content: center;
       flex-direction: column;
       flex-wrap: wrap;
-      
-    }
+     }
 
     .large-panel {
       width: 900px;
@@ -149,10 +144,6 @@
       border: 8px solid black;
       border-radius: 10px;
       display: flex;
-      
-      
-      
-     
     }
     
     .large-panel:hover {
@@ -227,10 +218,8 @@
        margin: auto;
        width: 50%;
        display: flex; 
-       flex-direction: column;
-     
-       
-       }
+       align-content: center;
+      }
 
        .contact {
        width: 550px;
@@ -265,6 +254,7 @@
         left: 42px;
         padding-inline-top: 2px;
         resize: none;
+        
         }
 
       .contact input, textarea {
@@ -276,6 +266,8 @@
        margin: 10px;
        text-align:start;
        padding-inline: 5px;
+       border-radius: 5px;
+       border: 1px solid black;
        }
 
       .your-name , .email , .message  {
@@ -334,5 +326,45 @@
        color: white;
        background-color: black;
      }
+
+     /*Resume*/
+     .resume-container {
+      margin: auto;
+      width: 50%;
+      display: flex; 
+      align-content: center;
+     }
+
+     .resume {
+      width: 800px;
+      height: 600px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      background-color: darkgoldenrod;
+      align-items: center;
+    }
+
+      .resume h2 {
+        margin: 150px 300px 100px 300px;
+        font-size: 45px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:black;
+        font-weight: bolder;
+        border-bottom: 9px ridge rgb(214, 79, 79);
+        padding-bottom: 5px;
+       background-color: darkcyan;
+       }
+
+      .resume p {
+        color: black;
+        font-size: 16;
+        margin: auto;
+        margin: 20px;
+        background-color: cornflowerblue;
+        width: 100px;
+        height: 100px;
+        
+      }
 
 
