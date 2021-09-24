@@ -230,13 +230,14 @@
        }
 
        .contact {
-       width: 430px;
-       height: 400px;
+       width: 550px;
+       height: 500px;
        margin: auto;
        display: flex;
        flex-direction: column;
        justify-content: space-evenly;
        text-align: center;
+       background-color: teal;
        }
 
        .contact h2 {
@@ -244,7 +245,7 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color:black;
         font-weight: bolder;
-        margin-bottom: 30px;
+        margin-bottom: ;
        }
 
       .contact input {
@@ -256,7 +257,8 @@
         width: 250px;
         height: 80px;
         position: relative;
-        left: 12px;
+        left: 42px;
+        padding-inline-top; 2px
         }
 
       .contact input, textarea {
@@ -264,28 +266,53 @@
        align-self: center;
        box-sizing: border-box;
        font-size: 17px;
+       font-family: Arial, Helvetica, sans-serif;
        margin: 10px;
-       
-      }
+       text-align:start;
+       padding-inline: 5px;
+       }
 
-      .your-name , .message  {
+      .your-name , .email , .message  {
        color: white;
        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
        font-size: 20px;
        background-color: black;
-       margin-right: 40px;
+       margin: 0 68px 0px 20px;
       
       }
 
       .your-name {
         padding: 6px;
+        position: relative;
+        left: 85px;
+        top: 2px;
       }
 
       .message {
         padding:6px;
         position: relative;
         bottom: 41px;
+        left: 96px;
       }
       
+      .email {
+        padding: 6px;
+        position: relative;
+        top: 2px;
+        left: 55px;
+      
+        
+      }
+
+      .name-input {
+        position: relative;
+        left: 29px;
+      }
+      
+      .contact button {
+        width: 200px;
+        height: 50px;
+        margin-top: 50px;
+      }
 
 
