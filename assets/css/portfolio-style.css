@@ -118,7 +118,7 @@
        }
 
     .banner h2 {
-      margin:auto;
+      margin: 150px 300px 100px 300px;
       font-size: 45px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       color:black;
@@ -341,7 +341,6 @@
       margin: auto;
       display: flex;
       flex-direction: column;
-      background-color: darkgoldenrod;
       align-items: center;
     }
 
@@ -353,18 +352,33 @@
         font-weight: bolder;
         border-bottom: 9px ridge rgb(214, 79, 79);
         padding-bottom: 5px;
-       background-color: darkcyan;
        }
 
       .resume p {
         color: black;
-        font-size: 16;
+        font-size: 20px;
+        font-weight: bold;
         margin: auto;
         margin: 20px;
-        background-color: cornflowerblue;
-        width: 100px;
+        width: 250px;
         height: 100px;
-        
+        position: relative;
+        top: 55px;
       }
+
+      .resume button {
+        width: 180px;
+        height: 90px;
+        border: 9px solid black;
+        border-radius: 7px;
+        font-size: 25px;
+      }
+      .resume button:hover {
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+      }
+      
 
 
