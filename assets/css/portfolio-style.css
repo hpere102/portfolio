@@ -224,7 +224,7 @@
       }
 
        .contact {
-       width: 550px;
+       width: 570px;
        height: 500px;
        margin: auto;
        display: flex;
@@ -252,8 +252,6 @@
       .contact textarea {
         width: 250px;
         height: 80px;
-        position: relative;
-        left: 42px;
         padding-inline-top: 2px;
         resize: none;
         
@@ -283,31 +281,19 @@
 
       .your-name {
         padding: 6px;
-        position: relative;
-        left: 85px;
-        top: 2px;
+       
       }
 
       .message {
         padding:6px;
-        position: relative;
-        bottom: 64px;
-        left: 96px;
+       
       }
       
       .email {
         padding: 6px;
-        position: relative;
-        top: 2px;
-        left: 55px;
-      
-        
+       
       }
 
-      .name-input {
-        position: relative;
-        left: 29px;
-      }
       
       .contact button {
         width: 200px;
@@ -382,5 +368,31 @@
         cursor: pointer;
       }
       
+      form {
+        width: 500px;
+        height: 260px;
+        align-self: center;
+        margin-bottom: 50px;
+        
+      }
 
+      .your-name, .email, .message {
+        position: relative;
+        left: 70px;
+        }
+
+      .name-input {
+        position: relative;
+        left: 20px;
+      }
+
+      .email-input {
+        position: relative;
+        left: 22px;
+      }
+
+      .message-input {
+        position: relative;
+      }
+     
 
