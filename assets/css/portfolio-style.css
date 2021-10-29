@@ -68,6 +68,7 @@
       gap: 35px;
       align-items: center;
       border-radius: 5px;
+      width: 800px;
       
     }
 
@@ -206,7 +207,7 @@
       padding: 10px;
       position: relative;
       bottom: 100px;
-      right: 151px;
+      right: 82px;
       margin: auto;
       
      }
@@ -227,22 +228,21 @@
      
        
 
-       .contact {
+      .contact {
        margin:auto;
        width: 400px;
        height: 500px;
        display: flex;
        flex-direction: column;
-       justify-content: center;       
-
+       align-items: center;
+       margin-top: 100px;
        
-       background-color: firebrick;
 
        }
 
-       .contact h2 {
+      .contact h2 {
         align-self: center;
-        margin-bottom: 80px;
+        margin-bottom: 50px;
         font-size: 45px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color:black;
@@ -253,19 +253,46 @@
         
        }
 
-       .contact-form {
+     .contact-form {
+       width: 285px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap: 8px;
+       padding: 20px;
+       
+      }
 
-       }
+      .name-input, .email-input, .message-input  {
+        width: 250px;
+        height: 30px;
+        padding: 5px;
+      }
 
+      .message-input {
+        width: 250px;
+        height: 80px;
+      }
+
+      .your-name, .email, .message {
+        background-color: black;
+        padding: 5px;
+        width: 95px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+
+      }
 
   
 
     .contact button {
-      width: 200px;
+      width: 150px;
       height: 50px;
       color: black;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-size: 19px;
+      align-self: center;
+      margin-top: 30px;
     
      }
 
@@ -281,7 +308,7 @@
       width: 800px;
       height: 600px;
       margin: auto;
-      margin-top: 50px;
+      margin-top: 150px;
       display: flex;
       flex-direction: column;
       align-items: center;
