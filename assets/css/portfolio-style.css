@@ -116,17 +116,26 @@
       display: flex;
       justify-content: center;
       flex-direction: column;
+      margin-top: 100px;
        }
 
-    .banner h2 {
-      margin: 150px 300px 100px 300px;
-      font-size: 45px;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      color:black;
-      font-weight: bolder;
-      margin-bottom:60px;
-      border-bottom: 9px ridge rgb(214, 79, 79);
-      padding: 5px;
+    .banner-container {
+
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .banner-container h2 {
+      align-self: center;
+        margin-bottom: 80px;
+        font-size: 45px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:black;
+        font-weight: bolder;
+        border-bottom: 9px ridge rgb(214, 79, 79);
+        padding: 10px;
+        padding-bottom: 5px;
       }
 
     .banner {
@@ -216,98 +225,48 @@
 
      /*Contact Section*/
      
-     .contact-container {
-       margin: auto;
-       width: 50%;
-       display: flex; 
-       align-content: center;
-      }
+       
 
        .contact {
-       width: 570px;
+       margin:auto;
+       width: 400px;
        height: 500px;
-       margin: auto;
        display: flex;
        flex-direction: column;
-       justify-content: space-evenly;
-       text-align: center;
+       justify-content: center;       
+
+       
+       background-color: firebrick;
 
        }
 
        .contact h2 {
-         margin: auto;
+        align-self: center;
+        margin-bottom: 80px;
         font-size: 45px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color:black;
         font-weight: bolder;
         border-bottom: 9px ridge rgb(214, 79, 79);
+        padding: 10px;
         padding-bottom: 5px;
-       }
-
-      .contact input {
-        width: 250px;
-        height: 35px;
-       }
-
-      .contact textarea {
-        width: 250px;
-        height: 80px;
-        padding-inline-top: 2px;
-        resize: none;
         
-        }
-
-      .contact input, textarea {
-      
-       align-self: center;
-       box-sizing: border-box;
-       font-size: 17px;
-       font-family: Arial, Helvetica, sans-serif;
-       margin: 10px;
-       text-align:start;
-       padding-inline: 5px;
-       border-radius: 5px;
-       border: 1px solid black;
        }
 
-      .your-name , .email , .message  {
-       color: white;
-       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-       font-size: 20px;
-       background-color: black;
-       margin: 0 68px 0px 20px;
-      
-      }
+       .contact-form {
 
-      .your-name {
-        padding: 6px;
-       
-      }
+       }
 
-      .message {
-        padding:6px;
-       
-      }
-      
-      .email {
-        padding: 6px;
-       
-      }
 
-      
-      .contact button {
-        width: 200px;
-        height: 50px;
-        margin-top: 50px;
-      }
+  
 
     .contact button {
-      width: 100px;
+      width: 200px;
+      height: 50px;
       color: black;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-size: 19px;
-      position: relative;
-      left: 204px;
+    
      }
 
      .contact button:hover {
@@ -316,29 +275,27 @@
      }
 
      /*Resume*/
-     .resume-container {
-      margin: auto;
-      width: 50%;
-      display: flex; 
-      align-content: center;
-     }
+     
 
      .resume {
       width: 800px;
       height: 600px;
       margin: auto;
+      margin-top: 50px;
       display: flex;
       flex-direction: column;
       align-items: center;
+      
     }
 
       .resume h2 {
-        margin: 150px 300px 100px 300px;
+        margin-bottom: 80px;
         font-size: 45px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color:black;
         font-weight: bolder;
         border-bottom: 9px ridge rgb(214, 79, 79);
+        padding: 10px;
         padding-bottom: 5px;
        }
 
@@ -350,8 +307,9 @@
         margin: 20px;
         width: 250px;
         height: 100px;
-        position: relative;
-        top: 55px;
+        padding: 7px;
+        
+        
       }
 
       .resume button {
@@ -360,6 +318,8 @@
         border: 9px solid black;
         border-radius: 7px;
         font-size: 25px;
+        margin-bottom: 50px;
+
       }
       .resume button:hover {
         background-color: black;
@@ -368,31 +328,7 @@
         cursor: pointer;
       }
       
-      form {
-        width: 500px;
-        height: 260px;
-        align-self: center;
-        margin-bottom: 50px;
-        
-      }
+      
 
-      .your-name, .email, .message {
-        position: relative;
-        left: 70px;
-        }
-
-      .name-input {
-        position: relative;
-        left: 20px;
-      }
-
-      .email-input {
-        position: relative;
-        left: 22px;
-      }
-
-      .message-input {
-        position: relative;
-      }
-     
+      
 
